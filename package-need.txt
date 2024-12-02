@@ -1,0 +1,11 @@
+go get google.golang.org/grpc
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+
+
+gateway:
+go get github.com/gin-gonic/gin
+go get -u github.com/swaggo/swag/cmd/swag
+go get -u github.com/swaggo/gin-swagger
+go get -u github.com/swaggo/files
+go get github.com/gin-contrib/cors
